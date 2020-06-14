@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: large;
+}
+.header {
+  background-color: rgb(181, 251, 252);
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+ul li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+  color: #66bfbf;
+}
+ul li:hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
+.index {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+#img {
+  margin-top: 50px;
+  position: relative;
+  right: 300px;
+}
+#img1 {
+  margin-top: 50px;
+  position: relative;
+  left: 300px;
+}
+#img2 {
+  margin-top: 50px;
+  position: relative;
+  right: 200px;
+}
+h1 {
+  margin-bottom: 0;
+  margin-top: 50px;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 110px;
+}
+h2 {
+  margin-top: 0;
+  color: #66bfbf;
+  font-family: "Croissant One", cursive;
+}
+h3 {
+  margin-top: 10px;
+  color: #66bfbf;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 30px;
+}
+h4 {
+  margin-bottom: 5px;
+  color: #66bfbf;
+  font-family: "Port Lligat Sans", sans-serif;
+  padding: 0;
+}
+#brief {
+  width: 400px;
+  margin: auto;
+}
+#hobb {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+}
+#me {
+  border-radius: 100%;
+  margin-bottom: 0;
+}
+.intro {
+  padding-bottom: 40px;
+}
+.skills {
+  padding: 40px;
+  display: block;
+}
+.code {
+  margin: auto;
+  margin-top: 100px;
+  display: inline-block;
+  position: relative;
+  right: 300px;
+}
+#coder {
+  float: left;
+  width: 50%;
+  border-radius: 20%;
+}
+.lang {
+  margin-left: 0;
+  margin-top: 10px;
+  text-align: left;
+  float: left;
+  position: relative;
+  left: 40px;
+}
+#mma {
+  border-radius: 100%;
+  width: 20%;
+  margin: auto;
+  float: right;
+}
+.mma {
+  margin: 50px auto 100px auto;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  line-height: 1.5;
+}
+#pro {
+  border-radius: 100%;
+  background-color: rgb(0, 1, 2);
+}
+.footer {
+  margin: 0;
+  padding: 20px;
+  padding-top: 30px;
+  background-color: darkturquoise;
+}
+.link {
+  margin: 10px;
+  text-decoration: none;
+}
+.link:hover {
+  color: floralwhite;
+}
+#end {
+  font-size: small;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+hr {
+  width: 4%;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+}
